@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: af2a614c3a82c4f5089b7951adfa91f3
+timeCreated: 1501744554
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BallantinesSerial
+  fontNames:
+  - BallantinesSerial
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

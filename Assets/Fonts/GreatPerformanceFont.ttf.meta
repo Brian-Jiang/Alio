@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a52e903e3175341ab8799def5eb2b2e8
+timeCreated: 1498986260
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Basileia
+  fontNames:
+  - Basileia
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
