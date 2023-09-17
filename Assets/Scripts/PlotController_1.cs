@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SocialPlatforms;
-using UnityEngine.SocialPlatforms.GameCenter;
 using UnityEngine.Analytics;
 
 

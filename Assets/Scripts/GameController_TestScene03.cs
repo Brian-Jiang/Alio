@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SocialPlatforms;
-using UnityEngine.SocialPlatforms.GameCenter;
 
 public class GameController_TestScene03 : MonoBehaviour {
 

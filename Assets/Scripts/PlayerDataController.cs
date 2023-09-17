@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SocialPlatforms;
+#if UNITY_IOS
 using UnityEngine.SocialPlatforms.GameCenter;
+#endif
 
 public class PlayerDataController : MonoBehaviour {
 
@@ -11,7 +11,9 @@ public class PlayerDataController : MonoBehaviour {
 
 
 	void Start () {  
+#if UNITY_IOS
 		GameCenterPlatform.ShowDefaultAchievementCompletionBanner (true);
+#endif
 		IAchievement achievement = Social.CreateAchievement();
 		achievement.id = "axy01";
 

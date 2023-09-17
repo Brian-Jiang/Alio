@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SocialPlatforms;
-using UnityEngine.SocialPlatforms.GameCenter;
 
+#if UNITY_IOS
+using UnityEngine.SocialPlatforms.GameCenter;
+#endif
 
 public class Difficulty {
 	private bool hasVeryEasy;
@@ -346,8 +348,11 @@ public class MainMenuController : MonoBehaviour {
 	}
 
 	public void leaderboardButtonOnClick(){
-		if (Social.localUser.authenticated) {  
+		if (Social.localUser.authenticated) {
+#if UNITY_IOS
 			GameCenterPlatform.ShowLeaderboardUI ("Total_Experience_Leaderboard",TimeScope.AllTime);
+#endif
+			
 		}  
 	}
 
