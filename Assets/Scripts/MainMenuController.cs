@@ -160,7 +160,7 @@ public class MainMenuController : MonoBehaviour {
 
 	private SceneController sceneController;
 
-	private bool menuIsOpen = false;
+	// private bool menuIsOpen = false;
 	private bool difficultyChooseOpen = false;
 
 	void OnEnable(){
