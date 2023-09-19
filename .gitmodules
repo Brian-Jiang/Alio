@@ -1,0 +1,3 @@
+[submodule "CustomPackages/CustomPackages/BuildTool"]
+	path = CustomPackages/CustomPackages/BuildTool
+	url = git@github.com:superunitybuild/buildtool.git
