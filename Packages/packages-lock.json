@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.github.superunitybuild.buildactions": {
+      "version": "file:../CustomPackages/BuildToolActions",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.github.superunitybuild.buildtool": "6.0.0"
+      }
+    },
+    "com.github.superunitybuild.buildtool": {
+      "version": "file:../CustomPackages/BuildTool",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,

@@ -2,3 +2,6 @@
 	path = CustomPackages/BuildTool
 	url = git@github.com:superunitybuild/buildtool.git
 	branch = master
+[submodule "CustomPackages/BuildToolActions"]
+	path = CustomPackages/BuildToolActions
+	url = git@github.com:superunitybuild/buildactions.git
