@@ -261,7 +261,7 @@ public class MainMenuController : MonoBehaviour {
 	}
 
 	public void facebookButtonOnClick(){
-		Application.OpenURL ("https://www.facebook.com/brian.jiang.520");
+		Application.OpenURL ("https://twitter.com/XiaoJiang_Brian");
 	}
 
 	public void menuButtonOnclick(){

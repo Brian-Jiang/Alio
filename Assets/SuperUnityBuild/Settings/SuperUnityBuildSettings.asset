@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8327996333152171307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89df54eebccd0704dbbe96915fbb9a6f, type: 3}
+  m_Name: Android
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions:
+    - distributionName: Google Play
+      enabled: 1
+  architectures:
+  - target: 13
+    name: Android
+    enabled: 1
+    binaryNameFormat: '{0}.apk'
+  variants:
+  - variantName: Device Type
+    selectedIndex: -1
+    values:
+    - ARMv7
+    - ARM64
+    - X86
+    - X86_64
+    isFlag: 1
+  - variantName: Texture Compression
+    selectedIndex: 0
+    values:
+    - Generic
+    - DXT
+    - PVRTC
+    - ATC
+    - ETC
+    - ETC2
+    - ASTC
+    isFlag: 0
+  - variantName: Build Output
+    selectedIndex: 0
+    values:
+    - App
+    - Gradle Project
+    isFlag: 0
+  - variantName: Binary Type
+    selectedIndex: 2
+    values:
+    - APK
+    - Split APK
+    - AAB
+    isFlag: 0
+  - variantName: APK Expansion Type
+    selectedIndex: 0
+    values:
+    - Single Binary
+    - Split App Binary
+    isFlag: 0
+  - variantName: Min SDK Version
+    selectedIndex: 0
+    values:
+    - Auto
+    - 16
+    - 17
+    - 18
+    - 19
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    isFlag: 0
+  - variantName: Target SDK Version
+    selectedIndex: 0
+    values:
+    - Auto
+    - 16
+    - 17
+    - 18
+    - 19
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    isFlag: 0
+  - variantName: Create symbols.zip
+    selectedIndex: 0
+    values:
+    - Disabled
+    - Public
+    - Debugging
+    isFlag: 0
+  scriptingBackends:
+  - scriptingImplementation: 0
+    name: Mono
+    enabled: 0
+  - scriptingImplementation: 1
+    name: IL2CPP
+    enabled: 1
+  platformName: Android
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 7
+--- !u!114 &-7475468339012200884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89df54eebccd0704dbbe96915fbb9a6f, type: 3}
+  m_Name: Android
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions:
+    - distributionName: Standalone APK
+      enabled: 1
+  architectures:
+  - target: 13
+    name: Android
+    enabled: 1
+    binaryNameFormat: '{0}.apk'
+  variants:
+  - variantName: Device Type
+    selectedIndex: -1
+    values:
+    - ARMv7
+    - ARM64
+    - X86
+    - X86_64
+    isFlag: 1
+  - variantName: Texture Compression
+    selectedIndex: 0
+    values:
+    - Generic
+    - DXT
+    - PVRTC
+    - ATC
+    - ETC
+    - ETC2
+    - ASTC
+    isFlag: 0
+  - variantName: Build Output
+    selectedIndex: 0
+    values:
+    - App
+    - Gradle Project
+    isFlag: 0
+  - variantName: Binary Type
+    selectedIndex: 0
+    values:
+    - APK
+    - Split APK
+    - AAB
+    isFlag: 0
+  - variantName: APK Expansion Type
+    selectedIndex: 0
+    values:
+    - Single Binary
+    - Split App Binary
+    isFlag: 0
+  - variantName: Min SDK Version
+    selectedIndex: 0
+    values:
+    - Auto
+    - 16
+    - 17
+    - 18
+    - 19
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    isFlag: 0
+  - variantName: Target SDK Version
+    selectedIndex: 0
+    values:
+    - Auto
+    - 16
+    - 17
+    - 18
+    - 19
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    isFlag: 0
+  - variantName: Create symbols.zip
+    selectedIndex: 0
+    values:
+    - Disabled
+    - Public
+    - Debugging
+    isFlag: 0
+  scriptingBackends:
+  - scriptingImplementation: 0
+    name: Mono
+    enabled: 0
+  - scriptingImplementation: 1
+    name: IL2CPP
+    enabled: 1
+  platformName: Android
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 7
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: SuperUnityBuildSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Builds
+    buildPath: $VERSION/$RELEASE_TYPE/$PLATFORM/
+    openFolderPostBuild: 0
+  _productParameters:
+    buildCounter: 2
+    buildVersion: 1.0
+    versionTemplate: 1.0
+    autoGenerate: 1
+    syncWithPlayerSettings: 0
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: Release
+      bundleIdentifier: com.xiaojiang.alio
+      companyName: Xiao Jiang
+      productName: Alio
+      buildOptions: 524288
+      customDefines: 
+      sceneList:
+        enabledScenes:
+        - fileGUID: 3deeec18089b24097b9bf1d7ff80fbe5
+        - fileGUID: 5cf10a0808fc741ad9b24d8010372ed1
+        - fileGUID: 4b537e86942354e208f4c25ab70e23fd
+        - fileGUID: 0c356356b5214451abd75f06b19ac193
+        - fileGUID: 81a4fcb4a79ab4c2fb0a6a6ed48b767f
+        - fileGUID: 08686c8cae76d42978fd495cfd1cf486
+        - fileGUID: df9ce5fb9d11d401294e467ebd60467f
+        - fileGUID: 599e13d1a171949e794a07fe6aaed357
+        - fileGUID: 345092ea0d5ee4863b9a6464761f99b7
+        - fileGUID: bb6502f6e56754db19510bcbf980db3a
+        - fileGUID: 821508c15ab31432db903bef47f1a657
+        - fileGUID: 3df35dc1faf4e4af1ac9b9ef9fe8b131
+  _platformList:
+    platforms:
+    - {fileID: 143964218674056562}
+    - {fileID: -7475468339012200884}
+    - {fileID: -8327996333152171307}
+  _projectConfigurations:
+    configSet:
+      _Buckets: ffffffff070000000a0000000b0000000500000004000000080000000000000009000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff06000000
+      _HashCodes: f1550158fc719237a3d9fd6793dbdf1b85b43e3745eab177de9a4a6edf548767a167086c6c0ea075ed64316d2d6dfd480000000000000000000000000000000000000000
+      _Next: ffffffffffffffff01000000ffffffff0200000003000000ffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000
+      _Count: 12
+      _Version: 12
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP/App Store
+      - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP
+      - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)
+      - Release/iOS
+      - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)/IL2CPP/Standalone
+        APK
+      - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)/IL2CPP
+      - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)
+      - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)/IL2CPP/Google
+        Play
+      - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)/IL2CPP
+      - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)
+      - Release/Android
+      - Release
+      - 
+      - 
+      - 
+      - 
+      - 
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP/App Store
+      - enabled: 1
+        childKeys:
+        - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP
+      - enabled: 1
+        childKeys:
+        - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP/Standalone APK
+      - enabled: 1
+        childKeys:
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP/Google Play
+      - enabled: 1
+        childKeys:
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP
+      - enabled: 1
+        childKeys:
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
+          Binary,Auto,Auto,Disabled)
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+          Binary,Auto,Auto,Disabled)
+      - enabled: 1
+        childKeys:
+        - Release/iOS
+        - Release/Android
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+      Binary,Auto,Auto,Disabled)/IL2CPP/Standalone APK
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions: []
+--- !u!114 &143964218674056562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef8779c491f5c644abe870eaa46e52c, type: 3}
+  m_Name: iOS
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions:
+    - distributionName: App Store
+      enabled: 1
+  architectures:
+  - target: 9
+    name: iOS
+    enabled: 1
+    binaryNameFormat: 
+  variants:
+  - variantName: Device Type
+    selectedIndex: 2
+    values:
+    - iPhoneOnly
+    - iPadOnly
+    - iPhoneAndiPad
+    isFlag: 0
+  - variantName: Target SDK
+    selectedIndex: 0
+    values:
+    - Device SDK
+    - Simulator SDK
+    isFlag: 0
+  - variantName: Build Type
+    selectedIndex: 1
+    values:
+    - Debug
+    - Release
+    isFlag: 0
+  scriptingBackends:
+  - scriptingImplementation: 1
+    name: IL2CPP
+    enabled: 1
+  platformName: iOS
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 4

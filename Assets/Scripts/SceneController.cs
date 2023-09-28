@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,12 +14,18 @@ public class SceneController : MonoBehaviour {
 
 	public MessageController messageController;
 	public PlayerDataController dataController;
+	
+	public GameObject debugConsole;
 
 	private bool isFading;
 
 
 	void OnEnable(){
 //		messageController = (MessageController)FindObjectOfType (typeof(MessageController));
+	}
+
+	private void Awake() {
+		// InitDebugConsole();
 	}
 
 	private IEnumerator Start ()
@@ -38,6 +45,13 @@ public class SceneController : MonoBehaviour {
 		yield return new WaitForSeconds (1f);
 
 		faderCanvas.SetActive (false);
+	}
+	
+	private void InitDebugConsole() {
+		if (!Application.isEditor && !Debug.isDebugBuild) return;
+		
+		var go = Instantiate(debugConsole);
+		go.name = "InGameDebugConsole";
 	}
 
 	public void unlockNewSongMessage(string name,int number){
