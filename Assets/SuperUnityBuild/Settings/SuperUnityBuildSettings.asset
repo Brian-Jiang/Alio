@@ -248,7 +248,7 @@ MonoBehaviour:
     openFolderPostBuild: 0
     constantsFileLocation: Assets\SuperUnityBuild
   _productParameters:
-    buildCounter: 5
+    buildCounter: 4
     buildVersion: 1.0
     versionTemplate: 1.0
     autoGenerate: 1
@@ -315,28 +315,24 @@ MonoBehaviour:
         childKeys: []
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
-          Binary,Auto,Auto,Disabled)/IL2CPP/Standalone APK
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)/IL2CPP/Standalone
+          APK
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
-          Binary,Auto,Auto,Disabled)/IL2CPP
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)/IL2CPP
       - enabled: 1
         childKeys: []
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
-          Binary,Auto,Auto,Disabled)/IL2CPP/Google Play
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)/IL2CPP/Google
+          Play
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
-          Binary,Auto,Auto,Disabled)/IL2CPP
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)/IL2CPP
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
-          Binary,Auto,Auto,Disabled)
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
-          Binary,Auto,Auto,Disabled)
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)
       - enabled: 1
         childKeys:
         - Release/iOS
@@ -356,8 +352,8 @@ MonoBehaviour:
     showBuildInfo: 0
     hideDisabled: 0
     treeView: 0
-    selectedKeyChain: Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
-      Binary,Auto,Auto,Disabled)/IL2CPP/Google Play
+    selectedKeyChain: Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP/App
+      Store
   _preBuildActions:
     buildActions: []
   _postBuildActions:
