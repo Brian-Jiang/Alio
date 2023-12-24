@@ -21,7 +21,7 @@ MonoBehaviour:
   - target: 13
     name: Android
     enabled: 1
-    binaryNameFormat: '{0}.apk'
+    binaryNameFormat: '{0}.aab'
   variants:
   - variantName: Device Type
     selectedIndex: -1
@@ -114,7 +114,6 @@ MonoBehaviour:
     name: IL2CPP
     enabled: 1
   platformName: Android
-  dataDirNameFormat: '{0}_Data'
   targetGroup: 7
 --- !u!114 &-7475468339012200884
 MonoBehaviour:
@@ -230,7 +229,6 @@ MonoBehaviour:
     name: IL2CPP
     enabled: 1
   platformName: Android
-  dataDirNameFormat: '{0}_Data'
   targetGroup: 7
 --- !u!114 &11400000
 MonoBehaviour:
@@ -248,8 +246,9 @@ MonoBehaviour:
     baseBuildFolder: Builds
     buildPath: $VERSION/$RELEASE_TYPE/$PLATFORM/
     openFolderPostBuild: 0
+    constantsFileLocation: Assets\SuperUnityBuild
   _productParameters:
-    buildCounter: 2
+    buildCounter: 5
     buildVersion: 1.0
     versionTemplate: 1.0
     autoGenerate: 1
@@ -260,22 +259,12 @@ MonoBehaviour:
       bundleIdentifier: com.xiaojiang.alio
       companyName: Xiao Jiang
       productName: Alio
-      buildOptions: 524288
+      syncAppNameWithProduct: 1
+      appBuildName: Alio
+      buildOptions: 262144
       customDefines: 
       sceneList:
-        enabledScenes:
-        - fileGUID: 3deeec18089b24097b9bf1d7ff80fbe5
-        - fileGUID: 5cf10a0808fc741ad9b24d8010372ed1
-        - fileGUID: 4b537e86942354e208f4c25ab70e23fd
-        - fileGUID: 0c356356b5214451abd75f06b19ac193
-        - fileGUID: 81a4fcb4a79ab4c2fb0a6a6ed48b767f
-        - fileGUID: 08686c8cae76d42978fd495cfd1cf486
-        - fileGUID: df9ce5fb9d11d401294e467ebd60467f
-        - fileGUID: 599e13d1a171949e794a07fe6aaed357
-        - fileGUID: 345092ea0d5ee4863b9a6464761f99b7
-        - fileGUID: bb6502f6e56754db19510bcbf980db3a
-        - fileGUID: 821508c15ab31432db903bef47f1a657
-        - fileGUID: 3df35dc1faf4e4af1ac9b9ef9fe8b131
+        releaseScenes: []
   _platformList:
     platforms:
     - {fileID: 143964218674056562}
@@ -368,7 +357,7 @@ MonoBehaviour:
     hideDisabled: 0
     treeView: 0
     selectedKeyChain: Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
-      Binary,Auto,Auto,Disabled)/IL2CPP/Standalone APK
+      Binary,Auto,Auto,Disabled)/IL2CPP/Google Play
   _preBuildActions:
     buildActions: []
   _postBuildActions:
@@ -420,5 +409,4 @@ MonoBehaviour:
     name: IL2CPP
     enabled: 1
   platformName: iOS
-  dataDirNameFormat: '{0}_Data'
   targetGroup: 4
