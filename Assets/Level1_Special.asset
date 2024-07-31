@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d642e14765364b6983c55dda0f3a68ba, type: 3}
+  m_Name: Level1_Special
+  m_EditorClassIdentifier: 
+  notes:
+  - rid: 180326564815699971
+  - rid: 180326564815699969
+  - rid: 180326564815699972
+  - rid: 180326564815699973
+  - rid: 180326564815699974
+  - rid: 180326564815699975
+  - rid: 180326564815699976
+  - rid: 180326564815699977
+  - rid: 180326564815699978
+  - rid: 180326564815699979
+  - rid: 180326564815699981
+  - rid: 180326564815699982
+  - rid: 180326564815699983
+  - rid: 180326564815699984
+  - rid: 180326564815699985
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  - rid: -2
+  paths:
+  - name: GameAreaPath_1
+    delay: 20.421
+    duration: 1.739
+    easeType: 0
+    loopType: 0
+  - name: GameAreaPath_2
+    delay: 44.936
+    duration: 1.747
+    easeType: 21
+    loopType: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 180326564815699969
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 4.36
+        radius: 7
+    - rid: 180326564815699971
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 2.53
+        radius: 7
+    - rid: 180326564815699972
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699973
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699974
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699975
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699976
+      type: {class: CenterNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699977
+      type: {class: CenterNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699978
+      type: {class: CenterNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699979
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699981
+      type: {class: RegularNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699982
+      type: {class: SlideNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699983
+      type: {class: SlideNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699984
+      type: {class: SlideNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0
+    - rid: 180326564815699985
+      type: {class: SlideNote, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        radius: 0

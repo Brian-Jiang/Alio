@@ -248,11 +248,11 @@ MonoBehaviour:
     openFolderPostBuild: 0
     constantsFileLocation: Assets\SuperUnityBuild
   _productParameters:
-    buildCounter: 4
-    buildVersion: 1.0
-    versionTemplate: 1.0
-    autoGenerate: 1
-    syncWithPlayerSettings: 0
+    buildCounter: 6
+    buildVersion: 1.0.1
+    versionTemplate: 1.0.1
+    autoGenerate: 0
+    syncWithPlayerSettings: 1
   _releaseTypeList:
     releaseTypes:
     - typeName: Release
@@ -264,7 +264,31 @@ MonoBehaviour:
       buildOptions: 262144
       customDefines: 
       sceneList:
-        releaseScenes: []
+        releaseScenes:
+        - fileGUID: 3deeec18089b24097b9bf1d7ff80fbe5
+          sceneActive: 1
+        - fileGUID: 5cf10a0808fc741ad9b24d8010372ed1
+          sceneActive: 1
+        - fileGUID: 4b537e86942354e208f4c25ab70e23fd
+          sceneActive: 1
+        - fileGUID: 0c356356b5214451abd75f06b19ac193
+          sceneActive: 1
+        - fileGUID: 81a4fcb4a79ab4c2fb0a6a6ed48b767f
+          sceneActive: 1
+        - fileGUID: 08686c8cae76d42978fd495cfd1cf486
+          sceneActive: 1
+        - fileGUID: df9ce5fb9d11d401294e467ebd60467f
+          sceneActive: 1
+        - fileGUID: 599e13d1a171949e794a07fe6aaed357
+          sceneActive: 1
+        - fileGUID: 345092ea0d5ee4863b9a6464761f99b7
+          sceneActive: 1
+        - fileGUID: bb6502f6e56754db19510bcbf980db3a
+          sceneActive: 0
+        - fileGUID: 821508c15ab31432db903bef47f1a657
+          sceneActive: 1
+        - fileGUID: 3df35dc1faf4e4af1ac9b9ef9fe8b131
+          sceneActive: 1
   _platformList:
     platforms:
     - {fileID: 143964218674056562}
@@ -315,24 +339,28 @@ MonoBehaviour:
         childKeys: []
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)/IL2CPP/Standalone
-          APK
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP/Standalone APK
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)/IL2CPP
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP
       - enabled: 1
         childKeys: []
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)/IL2CPP/Google
-          Play
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP/Google Play
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)/IL2CPP
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+          Binary,Auto,Auto,Disabled)/IL2CPP
       - enabled: 1
         childKeys:
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single Binary,Auto,Auto,Disabled)
-        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single Binary,Auto,Auto,Disabled)
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,APK,Single
+          Binary,Auto,Auto,Disabled)
+        - Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+          Binary,Auto,Auto,Disabled)
       - enabled: 1
         childKeys:
         - Release/iOS
@@ -352,8 +380,8 @@ MonoBehaviour:
     showBuildInfo: 0
     hideDisabled: 0
     treeView: 0
-    selectedKeyChain: Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP/App
-      Store
+    selectedKeyChain: Release/Android/Android (ARMv7+ARM64+X86+X86_64,Generic,App,AAB,Single
+      Binary,Auto,Auto,Disabled)/IL2CPP/Google Play
   _preBuildActions:
     buildActions: []
   _postBuildActions:
